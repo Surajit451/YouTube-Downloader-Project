@@ -42,7 +42,8 @@ plyer
 
 📸 Screenshots
 
-<img width="1242" height="924" alt="Screenshot 2025-08-27 211708" src="https://github.com/user-attachments/assets/8347beb9-d304-4860-ac95-8bea19109f1d" />
+<img width="1036" height="842" alt="Screenshot 2025-08-28 101124" src="https://github.com/user-attachments/assets/50b6784f-b15b-4b76-8cac-c16a043fa3d1" />
+
 
 
 🚀 Usage
