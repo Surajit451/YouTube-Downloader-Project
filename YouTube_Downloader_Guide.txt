@@ -1,0 +1,101 @@
+🎥 YouTube Downloader - Setup and Usage Guide
+=============================================
+
+📋 ABOUT THIS APPLICATION
+-------------------------
+This is a modern, user-friendly YouTube video and audio downloader built with Python. 
+It features a beautiful dark theme interface with colorful accents and supports both 
+single videos and entire playlists.
+
+⚙️ PREREQUISITES
+----------------
+Before using this application, make sure you have:
+
+1. Python 3.6 or higher installed on your system
+2. Required Python packages (install using pip):
+   - pytubefix (for YouTube downloading functionality)
+   - Pillow (for image processing and thumbnails)
+   - requests (for HTTP requests)
+
+To install the required packages, run these commands in your command prompt/terminal:
+pip install pytubefix
+pip install Pillow
+pip install requests
+
+🚀 HOW TO USE
+-------------
+
+1. LAUNCHING THE APPLICATION
+   - Run the Python script to open the YouTube Downloader
+   - The application window will appear with a dark theme interface
+
+2. DOWNLOADING A VIDEO
+   a. Enter the YouTube URL in the "Enter YouTube URL" field
+   b. Click the "Load Video Info" button to preview the video
+   c. Select a save location using the "Browse" button
+   d. Choose your preferred format: Video (MP4) or Audio (MP3)
+   e. Click "Download Single Video" to begin downloading
+
+3. DOWNLOADING A PLAYLIST
+   a. Enter the YouTube playlist URL in the URL field
+   b. Select a save location
+   c. Choose your preferred format
+   d. Click "Download Entire Playlist" to download all videos in the playlist
+
+4. MONITORING PROGRESS
+   - The progress bar shows download percentage
+   - Additional info displays download speed and estimated time remaining
+   - A success message appears when download completes
+
+🎨 FEATURES
+-----------
+- Modern dark theme interface with colorful accents
+- Video preview with thumbnail, title, duration and file size
+- Clickable thumbnail that opens the video in your browser
+- Support for both video (MP4) and audio (MP3) downloads
+- Playlist downloading capability
+- Real-time progress monitoring with speed and ETA
+- Scrollable interface for longer content
+
+⚠️ TROUBLESHOOTING
+------------------
+1. If downloads fail:
+   - Check your internet connection
+   - Verify the YouTube URL is correct
+   - Ensure you have write permissions to the save location
+
+2. If thumbnails don't load:
+   - Check your internet connection
+   - The video might be age-restricted or unavailable
+
+3. If you get package errors:
+   - Make sure all required packages are installed correctly
+   - Try updating pytubefix: pip install --upgrade pytubefix
+
+4. If the application crashes:
+   - Try restarting the application
+   - Check if YouTube has changed their website structure
+
+📝 NOTES
+--------
+- Downloaded files are saved with sanitized names (special characters removed)
+- Audio downloads are in MP3 format extracted from MP4 streams
+- The application uses threading to prevent UI freezing during downloads
+- Thumbnails are cached temporarily during the session
+
+🔒 LEGAL DISCLAIMER
+-------------------
+Please be aware of YouTube's Terms of Service when downloading content. 
+This tool is intended for personal use only. Downloading copyrighted 
+content without permission may violate copyright laws in your country.
+
+📞 SUPPORT
+----------
+If you encounter issues with this application, please check:
+1. That all prerequisites are installed correctly
+2. Your internet connection is stable
+3. The YouTube video/playlist is publicly accessible
+
+For additional help, consult the Python documentation or pytubefix documentation.
+
+Enjoy using the YouTube Downloader! 🎉
